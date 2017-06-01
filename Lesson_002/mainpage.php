@@ -1,24 +1,14 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="../assets/dist/css/bootstrap.css">
-    <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML =Date();
-        }
-        function changename() {
-            document.getElementById("NAME").innerHTML = "Ahmad.";
-        }
-        function changeDAY() {
-            document.getElementById("DAY").innerHTML = "Friday";
-        }
-        </script>
+    <script src="myscript.js"></script>
 
 
 
 </head>
 <body>
 
-<h2>My First JavaScript</h2>
+<h2>Use of extarnal script</h2>
 
 
 

@@ -1,24 +1,27 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="../assets/dist/css/bootstrap.css">
-    <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML =Date();
-        }
-        function changename() {
-            document.getElementById("NAME").innerHTML = "Ahmad.";
-        }
-        function changeDAY() {
-            document.getElementById("DAY").innerHTML = "Friday";
-        }
-        </script>
+    <script src="myscript.js"></script>
 
 
 
 </head>
 <body>
 
-<h2>My First JavaScript</h2>
+<h2>Use of Display Possibilities</h2>
+<ul>
+
+    <li>
+        innerHTML
+
+    </li>
+    <li>document.write()</li>
+    <li> window.alert()</li>
+    <li>console.log()</li>
+
+
+
+</ul>
 
 
 
@@ -45,17 +48,17 @@
 
                    <td>
                        <a href="#">
-                           <button class="btn btn-default" ONCLICK="changename()"><i class="fa fa-pencil"></i></button>
+                           <button class="btn btn-default" ONCLICK="changename()"><i class="fa fa-pencil"></i>Name</button>
                        </a>
                    </td>
                    <td>
                        <a href="#">
-                           <button  class="btn btn-danger" onclick="myFunction()"><i class="fa fa-trash"></i></button>
+                           <button  class="btn btn-danger" onclick="myFunction()"><i class="fa fa-trash">Date</i></button>
                        </a>
                    </td>
                    <td>
                        <a href="#">
-                           <button class="btn btn-danger" ONCLICK="changeDAY()" "><i class="fa fa-cog"></i></button>
+                           <button class="btn btn-danger" ONCLICK="changeDAY()" "><i class="fa fa-cog"></i>Day</button>
                        </a>
                    </td>
                </tr>
