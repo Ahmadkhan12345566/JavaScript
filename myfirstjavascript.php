@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/dist/css/bootstrap.css">
 </head>
 <body>
 
