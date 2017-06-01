@@ -1,49 +1,59 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="assets/dist/css/bootstrap.css">
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML =Date();
+        }
+        function changename() {
+            document.getElementById("NAME").innerHTML = "Ahmad.";
+        }
+        function changeDAY() {
+            document.getElementById("DAY").innerHTML = "Friday";
+        }
+        </script>
+
 </head>
 <body>
 
 <h2>My First JavaScript</h2>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = 'ARSLAN'">
-Click me to display Date and Time.</button>
+
 
 <div class="panel panel-default">
        <div class="panel-body">
-           <p class="text-danger">There are total <span class="text-bold">1</span> CLO's.</p>
+
            <table class="table">
                <tr>
                    <th>#</th>
-                   <th>CLO</th>
-                   <th>CLO %</th>
+                   <th>name</th>
+                   <th>date</th>
 
-                   <th>PLO</th>
+                   <th>day</th>
 
-                   <th>Edit</th>
-                   <th>Delete</th>
-                   <th>Manage</th>
+                   <th>change name</th>
+                   <th>change date</th>
+                   <th>chnage day</th>
                </tr>
                <tr>
                    <td>1</td>
-                   <td>This is PLO Module.</td>
-                   <td>BSCS</td>
-                   <td>1</td>
+                   <td id="NAME">khan</td>
+                   <td id="demo">2/3/4</td>
+                   <td id="DAY">thrusday</td>
 
                    <td>
                        <a href="#">
-                           <button class="btn btn-default" data-toggle="modal" data-target="#updatecourseModel"><i class="fa fa-pencil"></i></button>
+                           <button class="btn btn-default" ONCLICK="changename()"><i class="fa fa-pencil"></i></button>
                        </a>
                    </td>
                    <td>
                        <a href="#">
-                           <button class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                           <button  class="btn btn-danger" onclick="myFunction()"><i class="fa fa-trash"></i></button>
                        </a>
                    </td>
                    <td>
                        <a href="#">
-                           <button class="btn btn-primary"><i class="fa fa-cog"></i></button>
+                           <button class="btn btn-danger" ONCLICK="changeDAY()" "><i class="fa fa-cog"></i></button>
                        </a>
                    </td>
                </tr>
