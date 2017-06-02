@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../assets/dist/css/bootstrap.css">
-    <script src="myscript.js"></script>
+    <script src="myscriptt.js"></script>
 
 
 
@@ -36,17 +36,17 @@
 
                 <td>
                     <a href="#">
-                        <button class="btn btn-default" ONCLICK="changename()"><i class="fa fa-pencil"></i>Name</button>
+                        <button id="clr" class="btn btn-default" onmouseover="clorfun()" onclick="use_of_obj()"><i class="fa fa-pencil"></i>Name</button>
                     </a>
                 </td>
                 <td>
                     <a href="#">
-                        <button  class="btn btn-danger" onclick="myFunction()"><i class="fa fa-trash">Date</i></button>
+                        <button  class="btn btn-danger" onclick="anc()"><i class="fa fa-trash">Date</i></button>
                     </a>
                 </td>
                 <td>
                     <a href="#">
-                        <button class="btn btn-danger" ONCLICK="changeDAY()" "><i class="fa fa-cog"></i>Day</button>
+                        <button class="btn btn-danger" ><i class="fa fa-cog"></i>Day</button>
                     </a>
                 </td>
             </tr>
