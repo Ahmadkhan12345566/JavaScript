@@ -1,7 +1,12 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="../assets/dist/css/bootstrap.css">
-    <link rel="stylesheet" type="" href="prc.js">
+    <!-- 
+    This is not be a proper way for link js file
+    <link rel="stylesheet" type="" href="prc.js"> 
+    -->
+    <!-- This is How do you link a JavaScript file to a HTML filec -->
+    <script type="text/javascript" src="prc.js"></script>
 <style>
     .container{
         margin-top:20px;
@@ -31,8 +36,11 @@
 </style>
 </head>
 <body>
+ <!-- 
+Why this js block is empty?
 <script src="prc.js">
 </script>
+-->
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
