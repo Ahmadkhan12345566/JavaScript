@@ -1,14 +1,24 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="../assets/dist/css/bootstrap.css">
-    <script src="myscript.js"></script>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML =Date();
+        }
+        function changename() {
+            document.getElementById("NAME").innerHTML = "Ahmad.";
+        }
+        function changeDAY() {
+            document.getElementById("DAY").innerHTML = "Friday";
+        }
+        </script>
 
 
 
 </head>
 <body>
 
-<h2>Use of extarnal script</h2>
+<h2>My First JavaScript</h2>
 
 
 
@@ -54,7 +64,9 @@
        </div>
    </div>
 
-
+<label class="btn btn-default btn-file">
+    Browse <input type="file" hidden>
+</label>
 
 
 </body>
